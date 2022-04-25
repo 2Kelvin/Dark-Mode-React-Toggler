@@ -40,9 +40,14 @@ body{
 }
 
 .themeIconDiv img{
-  height: 1.6em;
-  width: 1.6em;
+  height: 1.5em;
+  width: 1.5em;
   cursor: pointer;
+  transition: .5s;
+}
+
+.themeIconDiv img:hover{
+  transform: translateY(-5px);
 }
 
 .name{
@@ -78,4 +83,9 @@ body{
   height: 2em;
   width: 2em;
   cursor: pointer;
+  transition: .5s;
+}
+
+.socialIcons div img:hover{
+  transform: translateY(-5px);
 }
