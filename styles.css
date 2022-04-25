@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+   background-color: #f1f7fc; 
+}
+
+.mainTile{
+  /* overflow: hidden; */
+  background-color: #fff;
+  height: 400px;
+  width: 350px;
+  margin: 20vh auto;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.profileCircle{
+  background-color: pink;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 21px auto;
+  background-image: url("images/cloudy.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.themeIconDiv{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  height: 40px;
+  margin: 10px 15px;
+}
+
+.themeIconDiv img{
+  height: 1.6em;
+  width: 1.6em;
+  cursor: pointer;
+}
+
+.name{
+  text-align: center;
+  color: #4696eb;
+  margin-bottom: 10px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+
+.job{
+  text-align: center;
+  color: #5d5d5c;
+  margin-bottom: 40px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.socialIcons{
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+}
+
+.socialIcons div{
+  margin: 0 15px;
+  border-radius: 50%;
+}
+
+.socialIcons div img{
+  height: 2em;
+  width: 2em;
+  cursor: pointer;
+}
