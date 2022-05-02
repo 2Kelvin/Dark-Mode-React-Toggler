@@ -1,4 +1,3 @@
-import React from "react";
 import moonIcon from "./../icons/grey-moon.png";
 
 function ThemeChangeIcon() {

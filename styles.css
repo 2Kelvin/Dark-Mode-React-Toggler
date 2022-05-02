@@ -1,3 +1,18 @@
+/* my CSS variables */
+:root{
+  --background-light: #f1f7fc;
+  --background-main-tile: #fff; 
+  --text-name: #4696eb;
+  --text-job: #5d5d5c;
+}
+/* CSS dark mode variables */
+[data-theme="dark"] {
+  --background-dark:#292929;
+  --background-main-tile-dark: #2f2f2f;
+  --text-name: #4696eb;
+  --text-job-dark: #fff;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -5,12 +20,11 @@
 }
 
 body{
-   background-color: #f1f7fc; 
+   background-color: var(--background-light); 
 }
 
 .mainTile{
-  /* overflow: hidden; */
-  background-color: #fff;
+  background-color: var(--background-main-tile);
   height: 400px;
   width: 350px;
   margin: 20vh auto;
@@ -20,7 +34,6 @@ body{
 }
 
 .profileCircle{
-  background-color: pink;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -40,19 +53,14 @@ body{
 }
 
 .themeIconDiv img{
-  height: 1.5em;
-  width: 1.5em;
+  height: 25px;
+  width: 24px;
   cursor: pointer;
-  transition: .5s;
-}
-
-.themeIconDiv img:hover{
-  transform: translateY(-5px);
 }
 
 .name{
   text-align: center;
-  color: #4696eb;
+  color: var(--text-name);
   margin-bottom: 10px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 700;
@@ -61,7 +69,7 @@ body{
 
 .job{
   text-align: center;
-  color: #5d5d5c;
+  color: var(--text-job);
   margin-bottom: 40px;
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;

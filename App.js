@@ -1,5 +1,4 @@
-import React from "react";
-import "./styles.css";
+ import "./styles.css";
 // importing components
 import Profilepicture from "./Components/Profilepicture";
 import ThemeChangeIcon from "./Components/ThemeChangeIcon";
