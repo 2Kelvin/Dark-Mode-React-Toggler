@@ -6,11 +6,11 @@
   --text-job: #5d5d5c;
 }
 /* CSS dark mode variables */
-[data-theme="dark"] {
-  --background-dark:#292929;
-  --background-main-tile-dark: #2f2f2f;
+[data-theme = 'dark'] {
+  --background:#292929;
+  --background-main-tile: #2f2f2f;
   --text-name: #4696eb;
-  --text-job-dark: #fff;
+  --text-job: #fff;
 }
 
 *{
