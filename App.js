@@ -1,5 +1,5 @@
- import "./styles.css";
-// importing components
+import useLocalStorage from "use-local-storage";
+import "./styles.css";
 import Profilepicture from "./Components/Profilepicture";
 import ThemeChangeIcon from "./Components/ThemeChangeIcon";
 import DeveloperName from "./Components/DeveloperName";
